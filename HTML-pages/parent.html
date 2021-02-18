@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Parent</title>
+    <link rel="stylesheet" href="../CSS-pages/2.css">
+    <link rel="stylesheet" href="../CSS-pages/navbar.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+          integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+</head>
+<body>
+<nav class="navbar"> <!-- Flexbox   -->
+    <ul class="topnav">
+        <div class="nav-elements">
+            <li class="li-img">
+                <button class="button-img" id="myDashboard">
+                    <i class="fas fa-tachometer-alt fa-4x nav-img"></i>
+                    <text1>Dashboard</text1>
+                </button>
+            </li>
+            <li>
+                <button class="button-img" id="myParent">
+                    <img src="../images/DashBoard/parents.svg" class="nav-img" alt="">
+                    <text1>parent</text1>
+                </button>
+            </li>
+            <li>
+                <button class="button-img" id="myTeacher">
+                    <img src="../images/DashBoard/teacher.svg" class="nav-img" alt="">
+                    <text1>Teacher</text1>
+                </button>
+            </li>
+            <li>
+                <button class="button-img" id="myStudent">
+                    <img src="../images/DashBoard/student.png" class="nav-img" alt="">
+                    <text1>Student</text1>
+                </button>
+            </li>
+            <li>
+                <button class="button-img" id="myAdmin">
+                    <img src="../images/DashBoard/admin.png" class="nav-img" alt="">
+                    <text1>Admin</text1>
+                </button>
+            </li>
+        </div>
+        <div class="logout">
+            <li>
+                <button class="button-img"><i class="fas fa-sign-out-alt fa-4x nav-img"></i>
+                    <text1>Logout</text1>
+                </button>
+            </li>
+        </div>
+
+    </ul>
+</nav>
+
+<section class="container">
+    <div class="header">      <!-- Flexbox   -->
+        <img class="line" src="../images/DashBoard/1_0.PNG" alt="">
+        <h1 class="text">Parent</h1>
+    </div>
+
+    <div class="table-1">
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Phone Number</th>
+                <th>Address</th>
+                <th>Action</th>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Bill</td>
+                <td>Gates</td>
+                <td>55577855</td>
+                <td>Canda</td>
+                <td><img src="../images/admin/delete.png"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Sara</td>
+                <td>Gates</td>
+                <td>55577855</td>
+                <td>Canda</td>
+                <td><img src="../images/admin/delete.png"></td>
+            </tr>
+            <tr>
+                <td>30</td>
+                <td>Sara</td>
+                <td>nn</td>
+                <td>55577855</td>
+                <td>Canda</td>
+                <td><img src="../images/admin/delete.png"></td>
+            </tr>
+        </table>
+
+        <input type="image" src="../images/admin/add.png" alt="" class="input-img" onclick="showForm()">
+        <form action="" class="form-1" id="formApperence" style="display: none;">
+            <div class="form-container">
+                <div class="form-div">
+                    <div class="first_name">
+                        <label for="first_name">First Name</label>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="first_name" placeholder="Enter User Name">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-div">
+                    <div class="lastname">
+                        <label for="lastname">Last Name</label>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="lastname" placeholder="Enter Last Name">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-div">
+                    <div class="pass">
+                        <label for="pass">Password</label>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="pass" placeholder="Enter Password">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-div">
+                    <div class="address">
+                        <label for="address">Address</label>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="address" placeholder="Enter Password">
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="submit-btn-wrapper">
+
+                    <input type="image" src="../images/Login/loginbutton.png" class="input-img" alt="">
+
+                </div>
+
+            </div>
+            <div class="form-imges">
+                <div class="photo">
+                    <img src="../images/parents/1.png">
+                </div>
+                <div class="photo-1">
+                    <img src="../images/parents/save.png">
+                </div>
+                <div class="photo-1">
+                    <img src="../images/parents/cancel.png">
+                </div>
+
+            </div>
+        </form>
+    </div>
+</section>
+
+<footer class="footer-style">
+    <div class="about">
+        <div class="about-txt">
+            <a href="#">About us</a>
+        </div>
+
+        <div class="vertical-line"></div>
+        <a href="../HTML-pages/contact.html" class="contact-txt">Contact Us</a>
+    </div>
+    <div class="end">Copyright©2016Blulogix,LLC.All Rights Reserved</div>
+</footer>
+<script src="../JS-pages/first.js"></script>
+
+</body>
+</html>

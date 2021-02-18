@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>contact</title>
+    <link rel="stylesheet" href="../CSS-pages/contact.css">
+    <link rel="stylesheet" href="../CSS-pages/navbar.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+          integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+</head>
+<body>
+
+<nav class="navbar"> <!-- Flexbox   -->
+    <ul class="topnav">
+        <div class="nav-elements">
+            <li class="li-img">
+                <button class="button-img" id="myDashboard">
+                    <i class="fas fa-tachometer-alt fa-4x nav-img"></i>
+                    <text1>Dashboard</text1>
+                </button>
+            </li>
+            <li>
+                <button class="button-img" id="myParent">
+                    <img src="../images/DashBoard/parents.svg" class="nav-img" alt="">
+                    <text1>parent</text1>
+                </button>
+            </li>
+            <li>
+                <button class="button-img" id="myTeacher">
+                    <img src="../images/DashBoard/teacher.svg" class="nav-img" alt="">
+                    <text1>Teacher</text1>
+                </button>
+            </li>
+            <li>
+                <button class="button-img" id="myStudent">
+                    <img src="../images/DashBoard/student.png" class="nav-img" alt="">
+                    <text1>Student</text1>
+                </button>
+            </li>
+            <li>
+                <button class="button-img" id="myAdmin">
+                    <img src="../images/DashBoard/admin.png" class="nav-img" alt="">
+                    <text1>Admin</text1>
+                </button>
+            </li>
+        </div>
+        <div class="logout">
+            <li>
+                <button class="button-img"><i class="fas fa-sign-out-alt fa-4x nav-img"></i>
+                    <text1>Logout</text1>
+                </button>
+            </li>
+        </div>
+
+    </ul>
+</nav>
+<section class="container">
+    <div class="information">
+        <div class="img_photo_cards">
+            <div class="img">
+                <i class="fas fa-map-marker-alt fa-lg"></i>
+            </div>
+            <div class="text">
+                <div class="title">Address:</div>
+                <div class="sup_tite">canda lolo</div>
+            </div>
+        </div>
+        <div class="img_photo_cards">
+            <div class="img">
+                <i class="fas fa-phone-alt fa-lg"></i>
+            </div>
+            <div class="text">
+                <div class="title">Phone:</div>
+                <div class="sup_tite">578545</div>
+            </div>
+        </div>
+        <div class="img_photo_cards">
+            <div class="img">
+                <i class="far fa-envelope fa-lg"></i>
+            </div>
+            <div class="text">
+                <div class="title">Email:</div>
+                <div class="sup_tite">root@root.com</div>
+            </div>
+        </div>
+        <div class="img_photo_cards">
+            <div class="img">
+                <i class="fas fa-fax fa-lg"></i>
+            </div>
+            <div class="text">
+                <div class="title">Fax:</div>
+                <div class="sup_tite">43434.131.112</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header">      <!-- Flexbox   -->
+        <img class="line" src="../images/DashBoard/1_0.PNG" alt="">
+        <h1 class="text">Contact us</h1>
+    </div>
+    <form action="" class="form-1">
+        <div class="form-container">
+            <div class="form-div">
+                <div class="message">
+                    <div class="label">
+                        <label for="message">Your Message*</label>
+                        <div class="form-group">
+                            <input type="text" class="form-control form-massege" id="message"
+                                   placeholder="Enter User Name">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-div">
+                <div class="first_name">
+                    <div class="label">
+
+                    <label for="first_name">First Name*</label>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="first_name" placeholder="Enter User Name">
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-div">
+                <div class="lastname">
+                    <div class="label">
+                    <label for="lastname">Last Name*</label>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="lastname" placeholder="Enter Last Name">
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="form-div">
+                <div class="email">
+                    <div class="label">
+                    <label for="email">Your Email*</label>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="email" placeholder="Enter Password">
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="submit-btn-wrapper">
+
+                <input type="image" src="../images/parents/save.png" class="input-img" alt="">
+
+            </div>
+        </div>
+    </form>
+</section>
+
+<footer class="footer-style">
+    <div class="about">
+        <div class="about-txt">
+            <a href="#">Help</a>
+        </div>
+
+        <div class="vertical-line"></div>
+        <a href="../HTML-pages/contact.html" class="contact-txt">Contact Us</a>
+    </div>
+    <div class="end">Copyright©2016Blulogix,LLC.All Rights Reserved</div>
+</footer>
+<script src="../JS-pages/first.js"></script>
+</body>
+</html>

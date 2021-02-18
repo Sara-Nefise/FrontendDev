@@ -1,0 +1,194 @@
+
+
+.container {
+    padding: 10px;
+    margin: 15px;
+    padding-bottom:5vh ;
+}
+
+.header {
+    display: flex;
+    text-align: center;
+    line-height: 20px;
+}
+
+.line {
+    width: 5px;
+    height: 50px;
+    padding-right: 7px;
+}
+
+.text {
+    color: #009688;
+}
+
+.cards {
+    display: flex;
+    padding: 15px;
+    padding-top: 0;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.card-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid #EEEEEE;
+    border-top: 4px solid #EF5E4A;
+    border-radius: 2%;
+    flex-wrap: wrap;
+    background-color: #FFFFFF;
+    box-shadow: 3px 5px 9px #888888;
+    min-width: 200px;
+    width: 25%;
+}
+
+.img-card-1 {
+    justify-content: center;
+}
+
+hr {
+    width: 100%;
+    margin: 0;
+}
+
+.text-1 {
+    font-size: 15px;
+
+}
+
+span {
+    color: #529688;
+    font-size: 18px;
+}
+
+.vertical-line {
+    border-left: 1px solid white;
+    height: 30px;
+    padding: 3px
+}
+
+.scroll {
+    /*overflow: scroll;*/
+    margin-bottom: 30px;
+}
+
+/* ************ parent html *************** */
+table {
+    width: 100%;
+}
+
+table, th, td {
+    border: 2px solid #80CBC4;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+    text-align: center;
+
+}
+
+th {
+    background-color: #B2DFDB;
+}
+
+.table-1 {
+    padding: 10px;
+    padding-bottom: 10vh;
+}
+
+.form-1 {
+    display: flex;
+    border: 2px solid #ECEFF1;
+    background-color: white;
+    padding: 17px;
+}
+
+.form-control {
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #E6E6E6;
+}
+
+.form-imges {
+    flex: auto;
+}
+
+.photo {
+    text-align: end;
+}
+
+.photo-1 {
+    display: inline-block;
+    float: right;
+    padding: 3px;
+}
+
+text {
+    display: inline-block;
+    height: 28px;
+    background-color: white;
+    margin-top: -32px;
+}
+
+.input-img {
+    margin: 15px 0;
+}
+
+.nav-img {
+    width: 50px;
+}
+
+.form-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    width: 75%;
+}
+
+.form-div {
+    display: flex;
+    min-width: 200px;
+    width: 33%;
+    flex-wrap: wrap;
+    padding-bottom: 7px;
+}
+
+/* ****************************** */
+
+/*************Teacher *******************/
+
+.first_name, .lastname, .address, .pass, .class, .material, .email, .phone-number,. {
+    width: 88%;
+
+}
+
+
+/****************************************/
+@media (max-width: 600px) {
+    .card-1 {
+        min-width: 200px;
+        width: 50%;
+        /*justify-content: right;*/
+    }
+
+    .text-1 {
+        justify-content: left;
+
+        font-size: 13px;
+    }
+
+    .cards {
+        justify-content: center;
+    }
+
+    span {
+        font-size: 13px;
+    }
+}

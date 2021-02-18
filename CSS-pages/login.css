@@ -1,0 +1,77 @@
+html, body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    font-variant: normal;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0;
+}
+
+.container {
+    display: block;
+    max-width: 700%;
+    width: 100%;
+    background-color: white;
+
+}
+
+.login-icon {
+    text-align: center;
+    }
+
+form {
+    display: inline-block;
+    background-color: #FDFDFD;
+    padding: 2rem 4rem;
+    padding-top: 1rem;
+    padding-right: 5rem;
+    text-align: center;
+}
+
+.form-style {
+    text-align: start;
+}
+
+.all {
+    text-align: center;
+    margin: 50px;
+}
+
+.text-Enter, label {
+    color: #009688;
+}
+
+.name, .pass{
+
+    padding: 7px 0 7px 0;
+
+}
+
+.form-control {
+    width: 100%;
+    font-size: 15px;
+    border: 2px solid #E6E6E6;
+    border-radius: 2px;
+    line-height: 1.5;
+    /*padding: 10px;*/
+    max-width: 700%;
+    padding: .375rem .50rem;
+    background-clip: padding-box;
+    display: block;
+}
+
+input:hover {
+    border-color: #009688;
+}
+
+/*.submit-btn-wrapper:hover {*/
+/*    border-color: #96008f;*/
+/*}*/
+
+.img-btn{
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+
+
+}

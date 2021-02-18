@@ -1,0 +1,108 @@
+html, body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    font-variant: normal;
+    font-weight: 400;
+    font-style: normal;
+    color: #303137;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #00968B;
+    align-content: flex-start;
+}
+
+.topnav {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.nav-elements {
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+    padding-left: 29px;
+}
+
+.button-img {
+    background: border-box;
+    border-style: none;
+}
+
+.nav-img {
+    height: 57px;
+    width: 50px;
+}
+
+.logout {
+    display: flex;
+    width: 40%;
+    justify-content: flex-end;
+}
+
+li {
+    width: 10%;
+}
+
+.button-img:active{
+    background-color:whitesmoke;
+    border: none;
+}
+/*.button-img:visited{*/
+/*    background-color:whitesmoke;*/
+/*    width: 80px;*/
+/*}*/
+/******** footer ********/
+.reletive-con {
+    position: relative;
+    min-height: 100vh;
+}
+
+footer {
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+
+}
+
+.footer-style {
+    background-color: #009688;
+}
+
+.vertical-line {
+    border-left: 1px solid white;
+    height: 30px;
+    padding: 3px
+}
+
+.about {
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+}
+
+.about-txt {
+    padding-right: 5px;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    color: white;
+}
+
+.contact-txt {
+    margin-top: 18px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/*********************/

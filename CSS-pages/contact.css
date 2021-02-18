@@ -1,0 +1,133 @@
+.container {
+    padding: 10px;
+    margin: 15px;
+    padding-bottom: 20vh;
+}
+
+.header {
+    display: flex;
+    text-align: center;
+    line-height: 20px;
+    margin-bottom: 7px;
+}
+
+.img-style {
+    height: 84px;
+}
+
+.line {
+    width: 5px;
+    height: 50px;
+    padding-right: 7px;
+}
+
+.img-card-1 {
+    justify-content: center;
+}
+
+hr {
+    width: 100%;
+    margin: 0;
+}
+
+.text-1 {
+    font-size: 15px;
+}
+
+span {
+    color: #529688;
+    font-size: 18px;
+}
+
+
+.scroll {
+    /*overflow: scroll;*/
+    margin-bottom: 30px;
+}
+
+/*************************************/
+
+li {
+    width: 10%;
+}
+
+.li-img {
+    color: #EF5E4A;
+}
+.form-div{
+    padding-bottom: 17px;
+}
+.img_photo_cards {
+    display: flex;
+    width: 24%;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: flex-start;
+}
+
+.img {
+    border: 2px solid #00968B;
+    padding: 10px;
+    height: 16px;
+    width: 21px;
+}
+
+.information {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+}
+
+.text {
+    padding-left: 9px;
+}
+
+.title {
+    color: #529688;
+}
+.form-control{
+    width: 100%;
+    padding: 5px;
+    border: 2px solid #E6E6E6;
+}
+.form-massege{
+
+    height: 98px;
+}
+.form-group{
+    width: 40%;
+}
+.label{
+    display: flex;
+
+}
+label{
+    padding-right: 9px;
+    width: 100px;
+}
+/****************************************/
+@media (max-width: 600px) {
+    .card-1 {
+        min-width: 200px;
+        width: 50%;
+
+    }
+
+    .text-1 {
+        justify-content: left;
+        font-size: 13px;
+    }
+
+    span {
+        font-size: 13px;
+    }
+    .img_photo_cards{
+        width: 46%;
+    }
+    .text{
+        font-size: 16px;
+    }
+    .line{
+        height: 35px;
+    }
+}

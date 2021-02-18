@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin</title>
+    <link rel="stylesheet" href="../CSS-pages/admin.css">
+    <link rel="stylesheet" href="../CSS-pages/navbar.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+          integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+
+</head>
+<body>   <!--make table resbonsive -->
+<nav class="navbar"> <!-- Flexbox   -->
+    <ul class="topnav">
+        <div class="nav-elements">
+            <li class="li-img">
+                <button class="button-img" id="myDashboard">
+                    <i class="fas fa-tachometer-alt fa-4x nav-img"></i>
+                    <text1>Dashboard</text1>
+                </button>
+            </li>
+            <li>
+                <button class="button-img" id="myParent">
+                    <img src="../images/DashBoard/parents.svg" class="nav-img" alt="">
+                    <text1>parent</text1>
+                </button>
+            </li>
+            <li>
+                <button class="button-img" id="myTeacher">
+                    <img src="../images/DashBoard/teacher.svg" class="nav-img" alt="">
+                    <text1>Teacher</text1>
+                </button>
+            </li>
+            <li>
+                <button class="button-img" id="myStudent">
+                    <img src="../images/DashBoard/student.png" class="nav-img" alt="">
+                    <text1>Student</text1>
+                </button>
+            </li>
+            <li>
+                <button class="button-img" id="myAdmin">
+                    <img src="../images/DashBoard/admin.png" class="nav-img" alt="">
+                    <text1>Admin</text1>
+                </button>
+            </li>
+        </div>
+        <div class="logout">
+            <li>
+                <button class="button-img"><i class="fas fa-sign-out-alt fa-4x nav-img"></i>
+                    <text1>Logout</text1>
+                </button>
+            </li>
+        </div>
+
+    </ul>
+</nav>
+
+<section class="container">
+    <div class="header">      <!-- Flexbox   -->
+        <img class="line" src="../images/DashBoard/1_0.PNG" alt="">
+        <h1 class="text">Admin</h1>
+    </div>
+
+    <div class="table-1">
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Phone Number</th>
+                <th>Email</th>
+                <th>Address</th>
+                <th>User name</th>
+                <th>Action</th>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Bill</td>
+                <td>Gates</td>
+                <td>55577855</td>
+                <td>sara123@gmail.com</td>
+                <td>Canda</td>
+                <td>test</td>
+                <td><img src="../images/admin/delete.png"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Sara</td>
+                <td>Gates</td>
+                <td>55577855</td>
+                <td>sara123@gmail.com</td>
+                <td>Canda</td>
+                <td>admin</td>
+                <td><img src="../images/admin/delete.png"></td>
+            </tr>
+            <tr>
+                <td>30</td>
+                <td>Sara</td>
+                <td>nn</td>
+                <td>55577855</td>
+                <td>sara123@gmail.com</td>
+                <td>admin-1</td>
+                <td>C</td>
+
+                <td><img src="../images/admin/delete.png"></td>
+            </tr>
+            <tr>
+                <td>30</td>
+                <td>Sara</td>
+                <td>nn</td>
+                <td>55577855</td>
+                <td>sara123@gmail.com</td>
+                <td>Canda</td>
+                <td>admin-2</td>
+                <td><img src="../images/admin/delete.png"></td>
+            </tr>
+            <tr>
+                <td>30</td>
+                <td>Sara</td>
+                <td>nn</td>
+                <td>55577855</td>
+                <td>sara123@gmail.com</td>
+                <td>Canda</td>
+                <td>test-2</td>
+                <td><img src="../images/admin/delete.png"></td>
+            </tr>
+            <tr>
+                <td>30</td>
+                <td>Sara</td>
+                <td>nn</td>
+                <td>55577855</td>
+                <td>sara123@gmail.com</td>
+                <td>Canda</td>
+                <td>test-3</td>
+                <td><img src="../images/admin/delete.png"></td>
+            </tr>
+
+        </table>
+        <input type="image" src="../images/admin/add.png" alt="" class="input-img" onclick="showForm()">
+        <form action="" class="form-1" id="formApperence" style="display: none;">
+            <div class="form-container">
+                <div class="form-div">
+                    <div class="username">
+                        <label for="username">User Name</label>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="username" placeholder="admin">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-div">
+                    <div class="phone-number">
+                        <label for="phone-number">Phone Number</label>
+                        <div class="form-group">
+                            <input type="number" class="form-control" id="phone-number" placeholder="5715169">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-div">
+                    <div class="password">
+                        <label for="password">Password</label>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-div">
+                    <div class="Confirm_password">
+                        <label for="Confirm_password">Confirm password</label>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="Confirm_password"
+                                   placeholder="Confirm Password">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-div">
+                    <div class="email">
+                        <label for="email">Email</label>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" placeholder="Email">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-div">
+                    <div class="address">
+                        <label for="address">Address</label>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="address" placeholder="Address">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-imges">
+                <div class="photo">
+                    <img src="../images/admin/adminicon.png">
+                </div>
+                <div class="photo-1">
+                    <img src="../images/parents/save.png">
+                </div>
+                <div class="photo-1">
+                    <img src="../images/parents/cancel.png">
+                </div>
+            </div>
+        </form>
+    </div>
+
+</section>
+
+<footer class="footer-style">
+    <div class="about">
+        <div class="about-txt">
+            <a href="#">About us</a>
+        </div>
+
+        <div class="vertical-line"></div>
+        <a href="../HTML-pages/contact.html" class="contact-txt">Contact Us</a>
+    </div>
+    <div class="end">Copyright©2016Blulogix,LLC.All Rights Reserved</div>
+</footer>
+<script src="../JS-pages/first.js"></script>
+
+</body>
+</html>
